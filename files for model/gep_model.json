@@ -1,0 +1,408 @@
+{
+  "description": "GEP symbolic regression | 6 genes | pop=300 gen=500 ridge=0.001",
+  "feature_names": [
+    "Fly Ash amount (kg/m3)",
+    "GGBFS amount (kg/m3)",
+    "NaOH molar concentration",
+    "NaOH amount (kg/m3)",
+    "Na2SiO3 amount (kg/m3)",
+    "Extra water",
+    "Course Agg. (kg/m3)",
+    "Fine Agg. (kg/m3)",
+    "Recycled Agg. (kg/m3)",
+    "Curing Temprature (C) ",
+    "Curing Time (hr)",
+    "age of testing (Days)"
+  ],
+  "feature_labels": [
+    "x1",
+    "x2",
+    "x3",
+    "x4",
+    "x5",
+    "x6",
+    "x7",
+    "x8",
+    "x9",
+    "x10",
+    "x11",
+    "x12"
+  ],
+  "y_mu": 45.14127659574468,
+  "y_sigma": 17.448217566348823,
+  "genes": [
+    {
+      "op": "-",
+      "value": null,
+      "left": {
+        "op": "/",
+        "value": null,
+        "left": {
+          "op": "var",
+          "value": 10,
+          "left": null,
+          "right": null
+        },
+        "right": {
+          "op": "var",
+          "value": 0,
+          "left": null,
+          "right": null
+        }
+      },
+      "right": {
+        "op": "/",
+        "value": null,
+        "left": {
+          "op": "+",
+          "value": null,
+          "left": {
+            "op": "var",
+            "value": 2,
+            "left": null,
+            "right": null
+          },
+          "right": {
+            "op": "var",
+            "value": 9,
+            "left": null,
+            "right": null
+          }
+        },
+        "right": {
+          "op": "+",
+          "value": null,
+          "left": {
+            "op": "var",
+            "value": 6,
+            "left": null,
+            "right": null
+          },
+          "right": {
+            "op": "const",
+            "value": -1.0,
+            "left": null,
+            "right": null
+          }
+        }
+      }
+    },
+    {
+      "op": "-",
+      "value": null,
+      "left": {
+        "op": "+",
+        "value": null,
+        "left": {
+          "op": "var",
+          "value": 10,
+          "left": null,
+          "right": null
+        },
+        "right": {
+          "op": "+",
+          "value": null,
+          "left": {
+            "op": "sq",
+            "value": null,
+            "left": {
+              "op": "var",
+              "value": 1,
+              "left": null,
+              "right": null
+            },
+            "right": null
+          },
+          "right": {
+            "op": "sqrt",
+            "value": null,
+            "left": {
+              "op": "var",
+              "value": 6,
+              "left": null,
+              "right": null
+            },
+            "right": null
+          }
+        }
+      },
+      "right": {
+        "op": "-",
+        "value": null,
+        "left": {
+          "op": "sqrt",
+          "value": null,
+          "left": {
+            "op": "var",
+            "value": 8,
+            "left": null,
+            "right": null
+          },
+          "right": null
+        },
+        "right": {
+          "op": "var",
+          "value": 10,
+          "left": null,
+          "right": null
+        }
+      }
+    },
+    {
+      "op": "+",
+      "value": null,
+      "left": {
+        "op": "-",
+        "value": null,
+        "left": {
+          "op": "var",
+          "value": 2,
+          "left": null,
+          "right": null
+        },
+        "right": {
+          "op": "sqrt",
+          "value": null,
+          "left": {
+            "op": "-",
+            "value": null,
+            "left": {
+              "op": "var",
+              "value": 10,
+              "left": null,
+              "right": null
+            },
+            "right": {
+              "op": "cbrt",
+              "value": null,
+              "left": {
+                "op": "var",
+                "value": 8,
+                "left": null,
+                "right": null
+              },
+              "right": null
+            }
+          },
+          "right": null
+        }
+      },
+      "right": {
+        "op": "+",
+        "value": null,
+        "left": {
+          "op": "-",
+          "value": null,
+          "left": {
+            "op": "var",
+            "value": 6,
+            "left": null,
+            "right": null
+          },
+          "right": {
+            "op": "cbrt",
+            "value": null,
+            "left": {
+              "op": "*",
+              "value": null,
+              "left": {
+                "op": "var",
+                "value": 0,
+                "left": null,
+                "right": null
+              },
+              "right": {
+                "op": "const",
+                "value": 0.5,
+                "left": null,
+                "right": null
+              }
+            },
+            "right": null
+          }
+        },
+        "right": {
+          "op": "var",
+          "value": 1,
+          "left": null,
+          "right": null
+        }
+      }
+    },
+    {
+      "op": "-",
+      "value": null,
+      "left": {
+        "op": "var",
+        "value": 11,
+        "left": null,
+        "right": null
+      },
+      "right": {
+        "op": "cbrt",
+        "value": null,
+        "left": {
+          "op": "/",
+          "value": null,
+          "left": {
+            "op": "var",
+            "value": 6,
+            "left": null,
+            "right": null
+          },
+          "right": {
+            "op": "cbrt",
+            "value": null,
+            "left": {
+              "op": "-",
+              "value": null,
+              "left": {
+                "op": "var",
+                "value": 0,
+                "left": null,
+                "right": null
+              },
+              "right": {
+                "op": "cbrt",
+                "value": null,
+                "left": {
+                  "op": "var",
+                  "value": 9,
+                  "left": null,
+                  "right": null
+                },
+                "right": null
+              }
+            },
+            "right": null
+          }
+        },
+        "right": null
+      }
+    },
+    {
+      "op": "cbrt",
+      "value": null,
+      "left": {
+        "op": "sqrt",
+        "value": null,
+        "left": {
+          "op": "*",
+          "value": null,
+          "left": {
+            "op": "var",
+            "value": 6,
+            "left": null,
+            "right": null
+          },
+          "right": {
+            "op": "var",
+            "value": 10,
+            "left": null,
+            "right": null
+          }
+        },
+        "right": null
+      },
+      "right": null
+    },
+    {
+      "op": "+",
+      "value": null,
+      "left": {
+        "op": "sqrt",
+        "value": null,
+        "left": {
+          "op": "+",
+          "value": null,
+          "left": {
+            "op": "+",
+            "value": null,
+            "left": {
+              "op": "sqrt",
+              "value": null,
+              "left": {
+                "op": "*",
+                "value": null,
+                "left": {
+                  "op": "var",
+                  "value": 2,
+                  "left": null,
+                  "right": null
+                },
+                "right": {
+                  "op": "var",
+                  "value": 10,
+                  "left": null,
+                  "right": null
+                }
+              },
+              "right": null
+            },
+            "right": {
+              "op": "sqrt",
+              "value": null,
+              "left": {
+                "op": "var",
+                "value": 9,
+                "left": null,
+                "right": null
+              },
+              "right": null
+            }
+          },
+          "right": {
+            "op": "var",
+            "value": 2,
+            "left": null,
+            "right": null
+          }
+        },
+        "right": null
+      },
+      "right": {
+        "op": "*",
+        "value": null,
+        "left": {
+          "op": "var",
+          "value": 2,
+          "left": null,
+          "right": null
+        },
+        "right": {
+          "op": "-",
+          "value": null,
+          "left": {
+            "op": "var",
+            "value": 1,
+            "left": null,
+            "right": null
+          },
+          "right": {
+            "op": "var",
+            "value": 8,
+            "left": null,
+            "right": null
+          }
+        }
+      }
+    }
+  ],
+  "coef": [
+    -0.4007219312287552,
+    -0.04356838767553271,
+    0.33621353343487576,
+    0.11145915640310447,
+    0.05874932969165134,
+    0.342029267906808,
+    0.051819685812090954
+  ],
+  "formula_terms": [
+    "((x11 / x1) - ((x3 + x10) / (x7 + -1)))",
+    "((x11 + ((x2)^2 + sqrt(|x7|))) - (sqrt(|x9|) - x11))",
+    "((x3 - sqrt(|(x11 - cbrt(x9))|)) + ((x7 - cbrt((x1 * 0.5))) + x2))",
+    "(x12 - cbrt((x7 / cbrt((x1 - cbrt(x10))))))",
+    "cbrt(sqrt(|(x7 * x11)|))",
+    "(sqrt(|((sqrt(|(x3 * x11)|) + sqrt(|x10|)) + x3)|) + (x3 * (x2 - x9)))"
+  ]
+}
