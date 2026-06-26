@@ -1,77 +1,119 @@
-# Geopolymer Concrete Strength Prediction using ANN and GEP
+# 🏗️ Geopolymer Concrete Compressive Strength Prediction Using ANN and GEP
 
-## Overview
-
-This project predicts the compressive strength of geopolymer concrete using Machine Learning techniques. Two prediction models were developed and compared:
-
-- Artificial Neural Network (ANN)
-- Gene Expression Programming (GEP)
-
-A graphical user interface (GUI) was also developed to allow users to predict compressive strength by entering material properties.
+![Python](https://img.shields.io/badge/Python-3.12-blue)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-ANN-orange)
+![Machine Learning](https://img.shields.io/badge/Machine-Learning-green)
+![Civil Engineering](https://img.shields.io/badge/Civil-Engineering-blueviolet)
+![Status](https://img.shields.io/badge/Status-Completed-success)
 
 ---
 
-## Objectives
+## 📖 Project Overview
 
-- Predict compressive strength accurately.
-- Compare ANN and GEP model performance.
-- Develop an easy-to-use prediction GUI.
-- Visualize model performance using graphs and statistical metrics.
+This project focuses on predicting the **compressive strength of geopolymer concrete** using Machine Learning techniques. Two prediction models were developed and evaluated:
+
+- 🧠 Artificial Neural Network (ANN)
+- 📈 Gene Expression Programming (GEP)
+
+A user-friendly **Python GUI** was also developed to predict concrete compressive strength based on material composition and curing conditions.
 
 ---
 
-## Dataset
+## 🎯 Objectives
 
-The dataset contains experimental geopolymer concrete mixes with input parameters such as:
+- Predict geopolymer concrete compressive strength with high accuracy.
+- Compare ANN and GEP prediction performance.
+- Develop a graphical user interface (GUI) for practical use.
+- Evaluate model performance using statistical metrics and visualization.
+
+---
+
+## 📊 Dataset
+
+The dataset contains experimental geopolymer concrete mixtures with multiple input parameters.
+
+### Input Parameters
 
 - Fly Ash
-- GGBS
+- Ground Granulated Blast Furnace Slag (GGBS)
 - Sodium Hydroxide (NaOH)
 - Sodium Silicate (Na₂SiO₃)
 - Fine Aggregate
 - Coarse Aggregate
 - Water
-- Superplasticizer
+- Recycled Aggregate
 - Curing Temperature
 - Curing Time
-- Age of Specimen
+- Age of Testing
 
-Output:
+### Output
 
 - Compressive Strength (MPa)
 
 ---
 
-## Machine Learning Models
+# 🧠 Machine Learning Models
 
-### Artificial Neural Network (ANN)
+## Artificial Neural Network (ANN)
 
-- TensorFlow/Keras
+- TensorFlow / Keras
 - High prediction accuracy
 - Optimized neural network architecture
+- Fast prediction
 
-### Gene Expression Programming (GEP)
+## Gene Expression Programming (GEP)
 
-- Symbolic regression
-- Mathematical equation generation
-- Model interpretability
+- Symbolic Regression
+- Mathematical Equation Generation
+- Interpretable prediction model
 
 ---
 
-## Technologies Used
+# 📈 Model Evaluation
+
+Performance was evaluated using:
+
+- ✅ R² Score
+- ✅ Mean Absolute Error (MAE)
+- ✅ Mean Squared Error (MSE)
+- ✅ Root Mean Square Error (RMSE)
+- ✅ Mean Absolute Percentage Error (MAPE)
+- ✅ Residual Analysis
+
+---
+
+# 📉 Visualizations
+
+The repository contains various visualization results including:
+
+- ANN Actual vs Predicted
+- GEP Actual vs Predicted
+- ANN vs GEP Comparison
+- Heat Map
+- Histogram
+- Feature Importance
+- Residual Plot
+- Error Distribution
+- Performance Metrics
+- Sensitivity Analysis
+
+---
+
+# 💻 Technologies Used
 
 - Python
-- TensorFlow
+- TensorFlow / Keras
 - Scikit-learn
 - NumPy
 - Pandas
 - Matplotlib
 - JSON
-- Git & GitHub
+- Git
+- GitHub
 
 ---
 
-## Project Structure
+# 📂 Project Structure
 
 ```
 Geopolymer-Concrete-Strength-Prediction
@@ -79,6 +121,13 @@ Geopolymer-Concrete-Strength-Prediction
 ├── data set for comparison
 ├── data set for concrete
 ├── files for model
+│   ├── geopolymer_gui.py
+│   ├── gep_train.py
+│   ├── gep_evaluate.py
+│   ├── best_ann_model.keras
+│   ├── zscore_scaler.pkl
+│   └── plots
+│
 ├── graph and chart
 ├── images for the result
 ├── geopolymer_model.py
@@ -87,46 +136,41 @@ Geopolymer-Concrete-Strength-Prediction
 
 ---
 
-## Results
-
-The project compares ANN and GEP using multiple evaluation metrics:
-
-- R² Score
-- MAE
-- RMSE
-- MAPE
-- Residual Analysis
-- Sensitivity Analysis
-
-Performance graphs and comparison charts are included in this repository.
-
----
-
-## Features
+# 🚀 Features
 
 - Machine Learning Prediction
-- ANN vs GEP Comparison
-- Performance Visualization
-- Python GUI Application
-- Graphical Analysis
+- ANN vs GEP Performance Comparison
+- Graphical User Interface
+- Performance Evaluation
+- Statistical Analysis
+- Data Visualization
 
 ---
 
-## Future Improvements
+# 🔮 Future Scope
 
-- Deploy as a web application
-- Add more experimental datasets
-- Improve prediction accuracy
-- Cloud deployment
+- Deploy as a Web Application
+- Cloud-based Prediction System
+- Mobile Application Integration
+- Expand Dataset for Better Generalization
+- Integration with BIM and Smart Construction Applications
 
 ---
 
-## Author
+# 👨‍💻 Author
 
-**Jebin Raj**
+## **Jebin Raj**
 
-B.E. Civil Engineering
+**B.E. Civil Engineering Student**
 
-Machine Learning | Structural Engineering | Geopolymer Concrete Research
+### Areas of Interest
 
-GitHub: https://github.com/JebinRaj12
+- Machine Learning in Civil Engineering
+- Structural Engineering
+- Geopolymer Concrete
+- Sustainable Construction
+
+
+---
+
+⭐ If you found this project useful, consider giving it a **Star** on GitHub.
